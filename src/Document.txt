@@ -1,0 +1,26 @@
+1) First I have created a context using create context
+
+Using this:
+const CounterContext = createContext(1);
+
+Create Context initialized it with 1
+
+
+2) Then i imported it in main file App.js
+3) Then i called parent and then from parent i called Child Component
+4) Then i send the value of context using Provider
+5) I also send the value using UseState
+
+  By Writing:
+
+  let CountState = useState(0);
+
+  CountState[0] -> Have the value
+  CountState[1] -> Have the function to update the parent value
+
+6) I have Created a button that updated the value of the value
+   from the parent by staying in child.
+
+
+
+
